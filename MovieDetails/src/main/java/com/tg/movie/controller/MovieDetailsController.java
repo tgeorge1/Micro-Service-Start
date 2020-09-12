@@ -7,11 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.tg.movie.model.Movie;
 
 @RestController
-@RequestMapping(path = "/movies}")
+@RequestMapping(path = "/movies")
 public class MovieDetailsController {
 	
 	@RequestMapping(path = "/{movieId}")
-	public Movie getMovie(@PathVariable String movieId) {
+	public Movie getMovie(@PathVariable("movieId") String movieId) {
+		System.out.println("IN controller");
 		
 		switch (movieId) {
 		case "100":
