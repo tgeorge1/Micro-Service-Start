@@ -1,6 +1,6 @@
 package com.tg.movie.model;
 
-public class Movie {
+public class MovieDetails {
 	
 	private String id;
 	private String director;
@@ -8,13 +8,13 @@ public class Movie {
 	private String name;
 	
 	
-	public Movie() {
+	public  MovieDetails() {
 		// TODO Auto-generated constructor stub
 	}
 	
 	
 	
-	public Movie(String id, String director, String description, String name) {
+	public MovieDetails(String id, String director, String description, String name) {
 		super();
 		this.id = id;
 		this.director = director;

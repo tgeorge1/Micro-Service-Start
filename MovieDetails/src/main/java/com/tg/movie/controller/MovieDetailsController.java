@@ -16,9 +16,9 @@ public class MovieDetailsController {
 		
 		switch (movieId) {
 		case "100":
-			return new Movie ("101","thomas","AX");
+			return new Movie ("101","thomas","AX","Transformer");
 		default:
-			return new Movie ("101","george","DK");
+			return new Movie ("101","george","DK","Fast And Furius");
 		}
 		
 	}
