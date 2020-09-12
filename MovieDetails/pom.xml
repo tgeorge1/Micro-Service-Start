@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tg</groupId>
-	<artifactId>movie</artifactId>
+	<artifactId>MovieDetails</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MovieDetails</name>
 	<description>movie details</description>

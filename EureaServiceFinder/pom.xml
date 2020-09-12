@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tg</groupId>
-	<artifactId>movie</artifactId>
+	<artifactId>EureaServiceFinder</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>EureaServiceFinder</name>
 	<description>Finds each microservice</description>
